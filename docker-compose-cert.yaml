@@ -1,0 +1,4 @@
+services:
+  proxy:
+    volumes:
+      - ./proxy/cert.conf.template:/etc/nginx/templates/default.conf.template

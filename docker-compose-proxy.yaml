@@ -1,0 +1,5 @@
+services:
+  proxy:
+    volumes:
+      - ./proxy/full.conf.template:/etc/nginx/templates/default.conf.template
+      - ./ssl:/etc/nginx/ssl
